@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box; /* Makes width and height include padding and border */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.conteiner{
+    max-width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+.card{
+    width: 280px;
+    background-color: #2f3237;
+    border-radius: 4px;
+    
+}
+
+.imagem{
+    height: 150px;
+
+}
+
+.imagem img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.info{
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.info h3{
+    color: white;
+}
+
+.info p{
+    color: rgb(168, 186, 186);
+}
